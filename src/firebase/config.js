@@ -1,15 +1,15 @@
-import firebase from 'firebase/compat/app'
-import 'firebase/compat/auth'
-import 'firebase/compat/firestore'
-import 'firebase/compat/storage'
+import firebase from "firebase/compat/app";
+import "firebase/compat/auth";
+import "firebase/compat/firestore";
+import "firebase/compat/storage";
 const firebaseConfig = {
-    apiKey: "AIzaSyCggZCcBun0cwNfOWGC2K8pZcgIRWMfqwY",
-    authDomain: "olx-sijeesh.firebaseapp.com",
-    projectId: "olx-sijeesh",
-    storageBucket: "olx-sijeesh.appspot.com",
-    messagingSenderId: "767411886432",
-    appId: "1:767411886432:web:2ef6862afc88f2c423a605",
-    measurementId: "G-4ELNR9DJHL"
-  };
+  apiKey: "AIzaSyBVd3Dm0ARzSwA13KysT_v_HK_HFm6T8U0",
+  authDomain: "olx-clone-87401.firebaseapp.com",
+  projectId: "olx-clone-87401",
+  storageBucket: "olx-clone-87401.appspot.com",
+  messagingSenderId: "354692968474",
+  appId: "1:354692968474:web:63c0b19a3e26551ac461a3",
+  measurementId: "G-5FY7TT2YTB",
+};
 
-  export const Firebase= firebase.initializeApp(firebaseConfig)//named export
+export const Firebase = firebase.initializeApp(firebaseConfig); //named export
